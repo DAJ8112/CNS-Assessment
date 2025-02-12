@@ -1,0 +1,11 @@
+jupyter
+ipykernel
+trimesh
+open3d
+pyvista
+pyyaml
+open3d
+point-cloud-utils
+rtree
+seaborn
+fast-simplification
