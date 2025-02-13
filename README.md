@@ -1,7 +1,7 @@
 # **CNS-Assessment**
-Repository for the CNS hra-amap assessment for the Python developer position
+Repository for the CNS hra-amap assessment for the Python developer position.
 
-Access the Notebooks here :
+To view the 3D outputs in the notebooks access the notebooks from here :
 
 1. [<ins>Usage.ipynb</ins>](https://daj8112.github.io/CNS-Assessment/)
 
@@ -76,30 +76,32 @@ These are a few problems which I've faced along with the solutions:
 
       <div style="display: flex; justify-content: space-between;">
         <div style="text-align: center;">
-            <img src="./hra_amap/results_images/hist50.png" width="300" />
+            <img src="./hra_amap/results_images/hist50.png" width="450" />
             <p>Histogram with 50% reduction</p>
         </div>
         <div style="text-align: center;">
-            <img src="./hra_amap/results_images/hist80.png" width="300" />
+            <img src="./hra_amap/results_images/hist80.png" width="450" />
             <p>Histogram with 80% reduction</p>
         </div>
      </div>
     We can clearly see that the count decreases in the 80% as the vertices have been reduced.
     Another observation is that the code takes significantly less time to run for 0.8 .
 
-4. Lastly the modules in the src directory doesn't seem to have been documented, and they all have missing docstrings, which make them a bit too abstract when using.
+4. The modules in the src directory doesn't seem to have been documented, and they all have missing docstrings, which make them a bit too abstract when using.
 
 5. Since the assessment clearly mentioned that the notebooks show the results of your code run, natively the notebooks don't show the 3D outputs in Github. - To show the 3D results in the cell outputs, I converted the notebooks into html files and deployed using GitHub Pages.
 
 ---
 ## **Optimizations**
 
+
 1. Using proper coding methods and replacing the absolute file paths to relative, so that the code is more reusable.
 
-2. Documenting the Python modules.
+2. Documenting the Python modules, which makes them a bit less abstract.
 
 3. 
 
 ---
 ##  **Final Thoughts**
 
+It was great working on this assessment, as this allows to showcase our credibility. While working on this assignment I went through CNS' HRA portal, even took a look at the research paper they had published and understood a lot about the work they do. Many improvements and further developments can be made but considering the crunch of time what can be done was limited.
