@@ -76,11 +76,11 @@ These are a few problems which I've faced along with the solutions:
 
       <div style="display: flex; justify-content: space-between;">
         <div style="text-align: center;">
-            <img src="./hra_amap/results_images/hist50.png" width="400" />
+            <img src="./hra_amap/results_images/hist50.png" width="300" />
             <p>Histogram with 50% reduction</p>
         </div>
         <div style="text-align: center;">
-            <img src="./hra_amap/results_images/hist80.png" width="400" />
+            <img src="./hra_amap/results_images/hist80.png" width="300" />
             <p>Histogram with 80% reduction</p>
         </div>
      </div>
