@@ -64,13 +64,28 @@ These are a few problems which I've faced along with the solutions:
     The Kernel died after running about for 10 mins.<br>
     I tried running a few times after restarting my kernel as well, but still got the same result.<br>
 
-    Then I experimented with simplifying the 3D point cloud with quadric decimation with 50% reduction in vertices. 
+    Then I experimented with simplifying the 3D point cloud with quadric decimation with 50% and 80% reduction in vertices. 
 
     ```
     sampled = projections.registration.simplify_quadric_decimation(0.5)
     ```
-    Images for 80% and 50%
     After this, the code worked as intented.
+
+    These are the images for different values of threshold.
+
+
+      <div style="display: flex; justify-content: space-between;">
+        <div style="text-align: center;">
+            <img src="/Users/dhruviljoshi/Documents/koding/cns/hra_amap/results_images/hist50.png" width="400" />
+            <p>Histogram with 50% reduction</p>
+        </div>
+        <div style="text-align: center;">
+            <img src="/Users/dhruviljoshi/Documents/koding/cns/hra_amap/results_images/hist80.png" width="400" />
+            <p>Histogram with 80% reduction</p>
+        </div>
+     </div>
+    We can clearly see that the count decreases in the 80% as the vertices have been reduced.
+    Another observation is that the code takes significantly less time to run for 0.8 .
 
 4. Lastly the modules in the src directory doesn't seem to have been documented, and they all have missing docstrings, which make them a bit too abstract when using.
 
@@ -87,3 +102,4 @@ These are a few problems which I've faced along with the solutions:
 
 ---
 ##  **Final Thoughts**
+
