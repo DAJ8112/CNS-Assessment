@@ -99,8 +99,6 @@ These are a few problems which I've faced along with the solutions:
 
 2. Documenting the Python modules, which makes them a bit less abstract.
 
-3. 
-
 ---
 ##  **Final Thoughts**
 
