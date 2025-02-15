@@ -9,6 +9,7 @@ To view the 3D outputs in the notebooks access the notebooks from here :
 
 3. [<ins>Registration Error Visualization.ipynb</ins>](https://daj8112.github.io/CNS-Assessment/RegistrationError)
 
+(you can find the .ipynb from hra_amp/notebooks/ )
 
  ---
  Table of Contents:
