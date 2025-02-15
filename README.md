@@ -3,11 +3,11 @@ Repository for the CNS hra-amap assessment for the Python developer position.
 
 To view the 3D outputs in the notebooks access the notebooks from here :
 
-1. [<ins>Usage.ipynb</ins>](https://daj8112.github.io/CNS-Assessment/Usage.html)
+1. [<ins>Usage.ipynb</ins>](https://daj8112.github.io/CNS-Assessment/)
 
-2. [<ins>Bidirectional Projections</ins>](https://daj8112.github.io/CNS-Assessment/BidirectionalProjections.html)
+2. [<ins>Bidirectional Projections</ins>](https://daj8112.github.io/CNS-Assessment/Bidirectional)
 
-3. [<ins>Registration Error Visualization.ipynb</ins>](https://daj8112.github.io/CNS-Assessment/RegistrationErrorVisualization.html)
+3. [<ins>Registration Error Visualization.ipynb</ins>](https://daj8112.github.io/CNS-Assessment/RegistrationError)
 
 
  ---
